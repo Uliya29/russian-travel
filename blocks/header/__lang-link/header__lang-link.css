@@ -1,12 +1,11 @@
 .header__lang-link {
-  color: fff;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF;
   line-height: 28px; /* 116.667% */
   text-decoration: none;
   padding-left: 18px;
+  color: #fff;
 }
 
 .header__lang-link_active {
