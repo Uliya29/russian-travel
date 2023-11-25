@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../vendor/web/InterVariable.woff2);
+  font-weight: normal;
+}
 @import url(../blocks/root/root.css);/*root*/
 @import url(../blocks/root/__header/root__header.css);
 @import url(../blocks/header/header.css);/*шапка*/
