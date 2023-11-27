@@ -1,0 +1,21 @@
+.intro__column-text {
+  width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__column-text {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro__column-text {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__column-text {
+    width: 288px
+  }
+}
