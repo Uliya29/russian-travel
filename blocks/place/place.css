@@ -1,0 +1,31 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px minmax(0, 484px);
+  grid-template-rows: 2;
+  grid-template-areas: 
+  "title url-link"
+  "picture main-text";
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px minmax(0, 456px);
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px minmax(0, 352px);
+    gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .place {
+    display: block;
+  }
+}
