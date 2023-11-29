@@ -29,3 +29,7 @@
     display: block;
   }
 }
+
+.place:last-child {
+  margin-bottom: 0;
+}

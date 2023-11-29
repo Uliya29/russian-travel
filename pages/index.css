@@ -33,6 +33,8 @@
 @import url(../blocks/place/__main-text/place__main-text.css);/*text*/
 @import url(../blocks/place/__paragraph/place__paragraph.css);/*paragraph*/
 @import url(../blocks/cover/cover.css);/*cover*/
+@import url(../blocks/cover/__title/cover__title.css);/*title*/
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);/*subtitle*/
 @import url(../blocks/footer/footer.css);/*footer*/
 @font-face {
   font-family: 'Inter';
