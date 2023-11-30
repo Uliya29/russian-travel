@@ -14,3 +14,9 @@
     line-height: 35px; /* 109.375% */
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-bottom: 16px;
+  }
+}
