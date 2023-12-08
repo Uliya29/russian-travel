@@ -1,13 +1,21 @@
 .header__lang-link {
+  font-family: Inter, 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px; /* 116.667% */
   text-decoration: none;
-  padding-left: 18px;
+  margin-left: 18px;
   color: #fff;
 }
 
 .header__lang-link_active {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 630px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px; /* 111.111% */
+  }
 }

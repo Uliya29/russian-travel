@@ -8,15 +8,15 @@
 </head>
 
 <body class="root">
-  <header class="header root__header">
+  <header class="header root__section">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
     <div class="header__lang-links">
-      <a class="header__lang-link header__lang-link_active" href="./index.html">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
+      <a class="header__lang-link header__lang-link_active root__link_hover" href="./index.html">Ru</a>
+      <a class="header__lang-link root__link_hover" href="#">En</a>
     </div>
   </header>
-  <main class="content">
-    <section class="lead section root__section">
+  <main class="content root__content">
+    <section class="lead root__section content__section content__lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
       <img class="lead__pic" alt="Направление путешествия" src="./images/lead-polka.jpg">
@@ -24,9 +24,9 @@
     </section>
     <!--конец блока lead-->
 
-    <section class="intro section root__section" aria-label="Блок со статьёй">
-      <article class="intro__column-text">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
+    <section class="intro root__section content__section" aria-label="Блок со статьёй">
+      <article class="intro__main-text">
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
         <p class="intro__paragraph">По опросам ВЦИОМ, 95% россиян мечтают 
           куда-нибудь поехать, но только 36% планируют провести отпуск в 
           родной стране. Мол, чего мы тут, дома, не видели? На самом деле, 
@@ -64,7 +64,7 @@
     </section>
     <!--конец блока photo-grid-->
 
-    <section class="places root__section section">
+    <section class="places root__section content__section">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__url">  
@@ -102,18 +102,18 @@
         <img class="place__pic" src="./images/place-kolsky.jpg" alt="Кольский">
         <article class="place__main-text">
           <p class="place__paragraph">
-            Почти весь полуостров находится за Полярным кругом. Саамская 
-            тундра, от которой на юг — тайга, а на север — Ледовитый океан, 
-            прикидывающийся Баренцевым морем.
+            Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская 
+            тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга,&nbsp;а&nbsp;на&nbsp;
+            север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.
           </p>
           <p class="place__paragraph">
-            Возможно, вы смотрели Звягинцева и даже слышали историю 
-            арктического фестиваля в Териберке. Возможно, слово «Хибины» не 
-            осталось под снегом школьных воспоминаний об уроках географии. 
-            Возможно, вы не интересовались пронизывающей земную кору 
-            сверхглубокой скважиной, а от апатитов вас давно накрывает 
-            апатия. Но ваша мечта увидеть северное сияние начинает сбываться 
-            с билетом в Мурманск.
+            Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю 
+            арктического фестиваля в&nbsp;Териберке. Возможно, слово &laquo;Хибины&raquo;
+            не осталось под снегом школьных воспоминаний об&nbsp;уроках географии. 
+            Возможно, вы&nbsp;не&nbsp;интересовались пронизывающей земную кору 
+            сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас давно накрывает 
+            апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться 
+            с&nbsp;билетом в&nbsp;Мурманск.
           </p>
         </article>
       </div>
@@ -128,16 +128,18 @@
         <img class="place__pic" src="./images/place-altai.jpg" alt="Алтай">
         <article class="place__main-text">
           <p class="place__paragraph">
-            Алтай — одно из красивейших мест в России. В первую очередь из-за 
-            гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, 
-            горные реки и озёра. А если вы откроете в автомобиле окна, сможете 
-            познакомиться с невидимым чудом здешних мест — горным воздухом.
+            Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. 
+            В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите 
+            склоны, усыпанные соснами, горные реки и&nbsp;озёра. А&nbsp;если 
+            вы&nbsp;откроете в&nbsp;автомобиле окна, сможете познакомиться 
+            с&nbsp;невидимым чудом здешних мест&nbsp;&mdash; горным воздухом.
           </p>
           <p class="place__paragraph">
-            Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. 
-            Так вы увидите всё разнообразие местной флоры и фауны. По лесам 
-            Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся 
-            косули. И знаменитые манулы — тоже обитатели Алтайского края.
+            Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего летом. 
+            Так вы&nbsp;увидите всё разнообразие местной флоры и&nbsp;фауны. 
+            По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, 
+            а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые 
+            манулы&nbsp;&mdash; тоже обитатели Алтайского края.
           </p>
         </article>
       </div>
@@ -191,27 +193,28 @@
     </section>
     <!--конец блока places-->
 
-    <section class="cover root__section">
-      <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;
-        путешествие&nbsp;от столицы до Байкала на&nbsp;электричках.
-      </p>
+    <section class="cover root__section content__cover">
+      <a href="#" class="cover__item">
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;
+          путешествие&nbsp;от столицы до Байкала на&nbsp;электричках.
+        </p>
+      </a>
     </section>
     <!--конец блока cover-->
-
-    <section class="footer root__section">
-      <nav class="footer__links">
-        <ul class="footer__links-list">
-          <li><a class="footer__link">Карты</a></li>
-          <li><a class="footer__link">Погода</a></li>
-          <li><a class="footer__link">Расписание</a></li>
-          <li><a class="footer__link">Календарь</a></li>
-          <li><a class="footer__link">Путешествия</a></li>
-        </ul>
-      </nav>
-      <p class="footer__copyright">© 2023. Зайцева Юлия</p>
-    </section>
-    <!--конец блока footer-->
   </main>
+  <footer class="footer root__section">
+    <nav>
+      <ul class="footer__links-list">
+        <li><a class="footer__link root__link_hover" href="#">Карты</a></li>
+        <li><a class="footer__link root__link_hover" href="#">Погода</a></li>
+        <li><a class="footer__link root__link_hover" href="#">Расписание</a></li>
+        <li><a class="footer__link root__link_hover" href="#">Календарь</a></li>
+        <li><a class="footer__link root__link_hover" href="#">Путешествия</a></li>
+      </ul>
+    </nav>
+    <p class="footer__copyright">© 2023. Зайцева Юлия</p>
+  </footer>
+  <!--конец блока footer-->
 </body>
 </html>

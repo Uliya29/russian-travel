@@ -1,11 +1,3 @@
 .place__main-text {
   grid-area: main-text;
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (max-width: 620px) {
-  .place__main-text {
-    margin-left: 16px;
-  }
 }
